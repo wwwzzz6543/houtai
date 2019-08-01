@@ -1,0 +1,18 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
+  instance:
+    prefer-ip-address: true #使用ip注册到eureka服务列表
+server:
+  port: 2000
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wwwzzz6543/Config.git
+          username: wwwzzz6543
+          password: wz654359450.

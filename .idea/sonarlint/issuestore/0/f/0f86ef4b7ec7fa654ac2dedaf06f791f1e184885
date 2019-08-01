@@ -1,0 +1,8 @@
+
+{squid:UselessImportCheck"YRemove this unused import 'springfox.documentation.swagger.web.SwaggerResourcesProvider'.(ËıØü
+rsquid:UselessImportCheck"PRemove this unused import 'springfox.documentation.swagger.web.UiConfiguration'.(â‘‘¯
+Rsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+Rsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+lsquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ
+msquid:UselessImportCheck"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß
+wsquid:UselessImportCheck"PRemove this unused import 'springfox.documentation.swagger.web.SwaggerResource'.(çÎòüÿÿÿÿ

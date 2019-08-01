@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aigou-basic-parent/aigou-basic-parent.iml" filepath="$PROJECT_DIR$/aigou-basic-parent/aigou-basic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-basic-parent/aigou-basic-util/aigou-basic-util.iml" filepath="$PROJECT_DIR$/aigou-basic-parent/aigou-basic-util/aigou-basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-plat-parent/aigou-plat-interface/aigou-plat-interface.iml" filepath="$PROJECT_DIR$/aigou-plat-parent/aigou-plat-interface/aigou-plat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-plat-parent/aigou-plat-parent.iml" filepath="$PROJECT_DIR$/aigou-plat-parent/aigou-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-plat-parent/aigou-plat-service/aigou-plat-service.iml" filepath="$PROJECT_DIR$/aigou-plat-parent/aigou-plat-service/aigou-plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-basic-parent/aigou_basic_generator/aigou_basic_generator.iml" filepath="$PROJECT_DIR$/aigou-basic-parent/aigou_basic_generator/aigou_basic_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/aigou_common_parent.iml" filepath="$PROJECT_DIR$/aigou_common_parent/aigou_common_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_config_service/aigou_config_service.iml" filepath="$PROJECT_DIR$/aigou_config_service/aigou_config_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_eureka/aigou_eureka.iml" filepath="$PROJECT_DIR$/aigou_eureka/aigou_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_parent.iml" filepath="$PROJECT_DIR$/aigou_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_product_parent/aigou_product_interface/aigou_product_interface.iml" filepath="$PROJECT_DIR$/aigou_product_parent/aigou_product_interface/aigou_product_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_product_parent/aigou_product_parent.iml" filepath="$PROJECT_DIR$/aigou_product_parent/aigou_product_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_product_parent/aigou_product_service/aigou_product_service.iml" filepath="$PROJECT_DIR$/aigou_product_parent/aigou_product_service/aigou_product_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_zuul/aigou_zuul.iml" filepath="$PROJECT_DIR$/aigou_zuul/aigou_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/common_interface/common_interface.iml" filepath="$PROJECT_DIR$/aigou_common_parent/common_interface/common_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_common_parent/common_service/common_service.iml" filepath="$PROJECT_DIR$/aigou_common_parent/common_service/common_service.iml" />
+    </modules>
+  </component>
+</project>

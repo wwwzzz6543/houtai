@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou-basic-util" />
+        <module name="aigou-plat-interface" />
+        <module name="aigou-plat-service" />
+        <module name="aigou_basic_generator" />
+        <module name="aigou_config_service" />
+        <module name="aigou_eureka" />
+        <module name="aigou_product_interface" />
+        <module name="aigou_product_service" />
+        <module name="aigou_zuul" />
+        <module name="common_interface" />
+        <module name="common_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aigou-basic-parent" target="8" />
+      <module name="aigou-basic-util" target="8" />
+      <module name="aigou-plat-interface" target="8" />
+      <module name="aigou-plat-parent" target="8" />
+      <module name="aigou-plat-service" target="8" />
+      <module name="aigou_basic_generator" target="8" />
+      <module name="aigou_common_parent" target="8" />
+      <module name="aigou_config_service" target="8" />
+      <module name="aigou_eureka" target="8" />
+      <module name="aigou_parent" target="8" />
+      <module name="aigou_product_interface" target="8" />
+      <module name="aigou_product_parent" target="8" />
+      <module name="aigou_product_service" target="8" />
+      <module name="aigou_zuul" target="8" />
+      <module name="common_interface" target="8" />
+      <module name="common_service" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
