@@ -1,8 +1,8 @@
 
-qsquid:S4488/"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(ıº²Ãùÿÿÿÿ8«äĞæÄ-
-Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8«äĞæÄ-
-ksquid:S4488F"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÏÊÃ×ûÿÿÿÿ8«äĞæÄ-
-msquid:S4488S"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¿†®¨ûÿÿÿÿ8«äĞæÄ-
-fsquid:S4488;"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ğÄâÿ8«äĞæÄ-
-hsquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ú¿Ìã8«äĞæÄ-
-Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8«äĞæÄ-
+fsquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ú¿Ìã8ôœÛîÄ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ôœÛîÄ-
+osquid:S4488"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(ıº²Ãùÿÿÿÿ8ôœÛîÄ-
+ksquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¿†®¨ûÿÿÿÿ8Š«ÚîÄ-
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ôœÛîÄ-
+isquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÏÊÃ×ûÿÿÿÿ8Š«ÚîÄ-
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ğÄâÿ8Š«ÚîÄ-

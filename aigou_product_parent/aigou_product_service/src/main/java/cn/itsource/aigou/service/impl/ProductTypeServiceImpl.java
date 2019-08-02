@@ -3,8 +3,11 @@ package cn.itsource.aigou.service.impl;
 import cn.itsource.aigou.domain.ProductType;
 import cn.itsource.aigou.mapper.ProductTypeMapper;
 import cn.itsource.aigou.service.IProductTypeService;
+import cn.itsource.common.client.RedisClient;
+import cn.itsource.common.client.StaticPageClient;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -23,11 +26,46 @@ import java.util.Map;
 @Service
 public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, ProductType> implements IProductTypeService {
 
+    @Autowired
+    private RedisClient redisClient;
+
+    @Autowired
+    private StaticPageClient staticPageClient;
+
     @Override
     public List<ProductType> loadTypeTree() {
         //递归方式实现
         //return recursive(0L);
         return loop();
+    }
+
+    @Override
+    public void genHomePage() {
+        //第一步 ： 生成product.type.vm.html
+        Map<String,Object> map = new HashMap<>();
+
+        String templatePath = "D:/ruanjian/Java/IDEAProject/aigou-parent/aigou-product-parent/aigou-product-service/src/main/resources/template/product.type.vm";
+        String targetPath = "D:/ruanjian/Java/IDEAProject/aigou-parent/aigou-product-parent/aigou-product-service/src/main/resources/template/product.type.vm.html";
+        //model 就是List 存放所有的商品类型
+        List<ProductType> productTypes = loadTypeTree();
+        map.put("model",productTypes);
+        map.put("templatePath",templatePath);
+        map.put("targetPath",targetPath);
+        staticPageClient.genStaticPage(map);
+
+        //第二步 ： 生成home.html
+        map = new HashMap<>();
+        templatePath = "D:/ruanjian/Java/IDEAProject/aigou-parent/aigou-product-parent/aigou-product-service/src/main/resources/template/home.vm";
+        targetPath = "D:/ruanjian/Java/IDEAProject/aigou-plat-web/src/views/Home.vue";
+        //model 中要有一个数据是staticRoot
+        Map<String,String> model = new HashMap<>();
+        model.put("staticRoot","E:/ideaProject/aigou-parent/aigou-product-parent/aigou-product-service/src/main/resources/");
+        map.put("model",model);
+        map.put("templatePath",templatePath);
+        map.put("targetPath",targetPath);
+
+        staticPageClient.genStaticPage(map);
+
     }
 
     /**
