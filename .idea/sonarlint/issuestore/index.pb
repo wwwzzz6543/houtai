@@ -121,3 +121,9 @@ haigou_common_parent/common_service/src/main/java/cn/itsource/common/controller/
 ]aigou_common_parent/common_interface/src/main/java/cn/itsource/common/client/RedisClient.java,8\1\817c362887f57987395c988f3ce2c19dde7897c3
 ’
 baigou_common_parent/common_interface/src/main/java/cn/itsource/common/client/StaticPageClient.java,5\3\5372a3e8b2bb1db35e2c73f6e4b1e0a170c32f64
+”
+daigou_product_parent/aigou_product_interface/src/main/java/cn/itsource/aigou/domain/ProductType.java,3\9\393dc76183f187a98267e68e6b4d3dc25029e8f3
+•
+eaigou_common_parent/common_service/src/main/java/cn/itsource/common/controller/FastDfsController.java,0\6\06272d6b694ccdd12ae973a93b7216faf17dcae1
+‹
+[aigou-basic-parent/aigou-basic-util/src/main/java/cn/itsource/basic/util/FastDfsApiOpr.java,6\9\6930dbe07caa31637bc56a1e7c30b6dde720c69a
